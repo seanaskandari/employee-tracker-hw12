@@ -83,6 +83,5 @@ function viewEmployeesByManager() {
     }]) .then; {
     connection.query("SELECT * FROM employees WHERE manager_id = res")
     
-    // need to use INNER JOIN here but return value not id //
     }
 }
