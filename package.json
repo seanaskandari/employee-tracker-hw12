@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,10 +23,5 @@
   "bugs": {
     "url": "https://github.com/seanaskandari/employee-tracker-hw12/issues"
   },
-  "homepage": "https://github.com/seanaskandari/employee-tracker-hw12#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "inquirer": "^7.3.3",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/seanaskandari/employee-tracker-hw12#readme"
 }
